@@ -62,6 +62,15 @@ historyContainer.append(newCard)
  }
 
 })
+// clear btn
+
+document.getElementById('clear-btn').addEventListener('click',function(e){
+    
+    const historyContainer=document.getElementById('history-container')
+    historyContainer.innerHTML='';
+    console.log(historyContainer)
+
+})
 
 //  copy click
 document.getElementById('cards').addEventListener('click',function(e){
