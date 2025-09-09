@@ -128,7 +128,7 @@ You have to create a `Readme.md` file. and write down following questions. Dont 
 
 ```bash
 I have a card with some text and a button inside it. I want that when a user clicks the button, some specific text from the card is copied to the clipboard using JavaScript. Please provide the code and explain it step by step.
-```  navigator.clipboard.writeText(text);
+```  
 
 - After clicking on the **Call button**, the **exact time of the call** will be shown in the Call History section (3 Marks)
 
