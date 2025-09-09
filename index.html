@@ -18,7 +18,7 @@
                 <h1 class="text-[#006747] font-bold">Emergency Service</h1>
             </div>
         <div class="navr-ight gap-2  flex ">
-            <div class="heart-icon flex gap-2 bg-[#41ff6b1a] rounded-[50px] justify-center items-center w-[123px]" ><span>0</span><img src="assets/heart.png" class="w-[30px] h-[30px]"></div>
+            <div class="heart-icon flex gap-2 bg-[#41ff6b1a] rounded-[50px] justify-center items-center w-[123px]" ><span id="heart-count">0</span><img src="assets/heart.png" class="w-[30px] h-[30px]"></div>
             <div class="coin-icon flex gap-2 bg-[#41ff6b1a] rounded-[50px] justify-center items-center w-[123px] "><span id="coin-num">100</span><img src="assets/coin.png" class="w-[30px] h-[30px]"></div>
             <div class="copy-btn flex gap-2 bg-[#41FF6B] rounded-[50px] justify-center items-center w-[123px]"><span>0</span>copy</div>
         </div>
@@ -30,7 +30,7 @@
         </div>
     </nav>
 <!-- cards section -->
-    <section class="mt-5 w-14/15 m-auto flex ">
+    <section class="mt-5 w-14/15 m-auto flex gap-2">
         <div id="cards" class=" grid grid-cols-3 gap-3 flex-3  ">
             <div class="card  shadow-2xl  bg-[#F2F2F2] p-8">
 
@@ -231,12 +231,15 @@
             </div>
         </div>
         <!-- aside -->
-        <aside class="flex-1 ">
-        <div class="aside-top px-3 py-5 rounded-lg bg-[#F2F2F2] shadow-2xl flex justify-between items-center">
+        <div id="history-container" class="flex-1 ">
+        <div class="aside-top px-3 py-5  flex justify-between items-center">
             <h3 class="font-medium text-[20px] text-[#111]">call history</h3>
              <button class="rounded-3xl px-9 py-3 bg-green-500 text-white clear-btn">clear</button>
         </div>
-        </aside>
+
+    
+
+    </div>
     </section>
 
   <script src="index.js"></script>
