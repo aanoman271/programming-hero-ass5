@@ -10,15 +10,15 @@
 
 ## ✅ Main Requirements (50 Marks)
 
-### 1. Navbar
+### 1. Navbar done
 
 - **Website name & logo** on the left as Figma
 - **Heart icon, coin count (default-100), and Copy Count** on the right as Figma
 
 ---
 
-### 2. Hero Section
-
+### 2. Hero Section done
+ 
 - **Background Gradient** in the Whole Section
 - **A Relevant Logo** at the top-center
 - **Section Title** in the center
@@ -26,7 +26,7 @@
 
 ---
 
-### 2. Main Section
+### 2. Main Section done
 
 This Section will have layout as figma
 
@@ -64,7 +64,7 @@ This Section will have layout as figma
 
 ### History Section
 
-- **A white Background** in the whole section
+- **A white Background**  in the whole section
 - **History Title with icon** at the top-left as Figma
 - **Clear History Button** at the top-right as Figma
 
