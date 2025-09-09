@@ -60,4 +60,27 @@ newCard.innerHTML=`    <div class=" px-5 py-5 my-3 rounded-lg bg-[#F2F2F2] shado
 historyContainer.append(newCard)
 
  }
+
+})
+
+//  copy click
+document.getElementById('cards').addEventListener('click',function(e){
+
+  const copyBtn=e.target
+  const serviceName= copyBtn.parentNode.parentNode.children[1].children[0].innerText;
+  const serviceNumber=copyBtn.parentNode.parentNode.children[2].children[0].innerText;
+ if(copyBtn.className.includes('copy-btn')){
+    alert(serviceName+" copied")
+  navigator.clipboard.writeText(serviceNumber)
+  const copyCount=document.getElementById('copy-count').innerText;
+  const currentCopyNumber =Number(copyCount)+1
+  document.getElementById('copy-count').innerText=currentCopyNumber
+
+
+  console.log(serviceNumber)
+
+ }
+
+
+
 })
